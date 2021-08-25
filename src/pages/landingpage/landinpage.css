@@ -1,187 +1,199 @@
-.start{
-    background-color:#fafafa;
-     height:100vh;
-      border-radius:25px;
+.start {
+  background-color: #fafafa;
+  height: 100vh;
+  border-radius: 25px;
 }
-.cloud2{
-    margin-left: -54px;
+.cloud2 {
+  margin-left: -54px;
 }
-.dot{
-    margin-right:270px;
+.dot {
+  margin-right: 270px;
 }
-.dot1{
-    position: absolute;
-    top: 281px;
-    left: 377px;
+.dot1 {
+  position: absolute;
+  top: 281px;
+  left: 377px;
 }
-.dot2{
-    position: absolute;
-    top: 142px;
-    left: 902px;
+.dot2 {
+  position: absolute;
+  top: 142px;
+  left: 902px;
 }
-.sparrow{
-    margin-right:80px;
+.sparrow {
+  margin-right: 80px;
 }
-.text1{
-   
-    font-weight: 400;
-    text-align:center ;
+.text1 {
+  font-weight: 400;
+  text-align: center;
 }
-.text{
-    margin-top: 1rem !important;
-    font-family: 'Poppins', sans-serif;
-    font-size:18px;
-    color:  #3d1d2c;
-    font-weight: 500;
-    text-align:center ;
+.text {
+  margin-top: 1rem !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #3d1d2c;
+  font-weight: 500;
+  text-align: center;
 }
-.button{
-   
-    border: 3px solid #e1c0b0 !important;
-   
+
+.button {
+  border: 3px solid #e1c0b0 !important;
 }
-.Goto{
-    font-family: 'Poppins', sans-serif !important;
-    font-size:16px !important;
-    font-weight: 500 !important;
-    text-align:center ;
-   text-transform: uppercase;
-    padding: 8px;
+
+.Goto {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px;
 }
+
 .button:hover {
-background-color: #e1c0b0 !important;
-color: white !important;
-
+  background-color: #e1c0b0 !important;
+  color: white !important;
 }
 
-.cycle{
-    margin-left: 100px;
+.cycle {
+  margin-left: 100px;
 }
 
-.tree{
-    margin-top: 20px;
-    width: 30%;
-}
-.branch
-{
-    margin-left: 38px;
-    margin-top: -188px;
-    margin-right: -56px;
-    width: 57%;
-
-   
-}
-.leaf{
-    margin-top: 140px;
-    width:15%;
-}
-.leaf2{
-    width:20%;
-    margin-left: 20px;
-    margin-top: 170px;
-    margin-right:-67px;
-}
-.landing{
-    margin-top: -257px;
-    margin-right: 0px;
-}
-.leaf3{
-    width:6%;
-    margin-left: 20px;
-    margin-top: 190px;
-    margin-right:-67px;
+.tree {
+  margin-top: 20px;
+  width: 30%;
 }
 
-.main{
-    width: 100px;
-    margin-Top:150px; 
+.branch {
+  margin-left: 38px;
+  margin-top: -188px;
+  margin-right: -56px;
+  width: 57%;
 }
-.loaderss{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.leaf {
+  margin-top: 140px;
+  width: 15%;
 }
-.loader{
-padding-left:10px;
+
+.leaf2 {
+  width: 20%;
+  margin-left: 20px;
+  margin-top: 170px;
+  margin-right: -67px;
 }
-.loaderProgress{
-    width: 320px;
+
+.landing {
+  margin-top: -257px;
+  margin-right: 0px;
 }
+
+.leaf3 {
+  width: 6%;
+  margin-left: 20px;
+  margin-top: 190px;
+  margin-right: -67px;
+}
+
+.main {
+  width: 100px;
+  margin-top: 150px;
+}
+
+.loaderss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  padding-left: 10px;
+}
+
+.loaderProgress {
+  width: 320px;
+}
+
 @media only screen and (min-width: 100px) and (max-width: 595px) {
-   
-    .main{
-        width: 70px;
-        margin-Top:150px; 
-    }
-    .loaderProgress{
-        width: 220px;
-    }
-    .loader{
-        padding-left:10px;
-        font-size: 18px !important;
-        }
-        .text1{
-            margin-top: 0rem !important;
-        }
-        .button{
-   
-           margin-top: 1rem !important;
-           
-        }
-        .text{
-            margin-top: 3rem !important;
-            font-size:14px;
-            
-        }
-        .branch
-        {
-           display: none;
-        }
-        .leaf2
-        {
-           display: none;
-        }
-         .leaf3{
-            display: none;
-        }
-        .cycle{
-            margin-top: 5rem !important;
-            /* width:100%; */
-            height: 50%;
-            margin-left: 20px; 
-    }
-    .landing{
-        display: none;
-    }
-    .tree{
-        margin-top: 6rem !important;
-      
-    }
-    .dot{
-        display: none;
-    }
-    .dot1{
-        display: none;
-    }
-    .dot2{
-        display: none;
-    }
-    .sparrow{
-        margin-right: -170px;
-        margin-top: 38px;
-        height: 36%;
-    }
-    
-}
-@media only screen and (min-width: 768px) and (max-width: 920px) {
-    .cycle{
-        width:26%;
+  .main {
+    width: 70px;
+    margin-top: 150px;
+  }
+
+  .loaderProgress {
+    width: 220px;
+  }
+
+  .loader {
+    padding-left: 10px;
+    font-size: 18px !important;
+  }
+
+  .text1 {
+    margin-top: 0rem !important;
+  }
+
+  .button {
+    margin-top: 1rem !important;
+  }
+
+  .text {
+    margin-top: 3rem !important;
+    font-size: 14px;
+  }
+
+  .branch {
+    display: none;
+  }
+
+  .leaf2 {
+    display: none;
+  }
+
+  .leaf3 {
+    display: none;
+  }
+
+  .cycle {
+    margin-top: 5rem !important;
+    /* width   :100%; */
+    height: 50%;
+    margin-left: 20px;
+  }
+
+  .landing {
+    display: none;
+  }
+
+  .tree {
+    margin-top: 6rem !important;
+  }
+
+  .dot {
+    display: none;
+  }
+
+  .dot1 {
+    display: none;
+  }
+
+  .dot2 {
+    display: none;
+  }
+
+  .sparrow {
+    margin-right: -170px;
+    margin-top: 38px;
+    height: 36%;
+  }
 }
 
-    .branch
-{
+@media only screen and (min-width: 768px) and (max-width: 920px) {
+  .cycle {
+    width: 26%;
+  }
+
+  .branch {
     margin-left: 0px;
-    margin-right:0px;
-     width:26%;
-}
+    margin-right: 0px;
+    width: 26%;
+  }
 }
