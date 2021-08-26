@@ -15,7 +15,7 @@ export default function Intro({ children }) {
       style={{ display: "flex", flexDirection: "column", height: "100vh" }}
     >
       <Demo />
-      <Aboutme />
+       <Aboutme />
       <Skills />
       <Progress />
       <Project />

@@ -7,28 +7,6 @@
 
 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 10s linear;
-    
-    stroke-dashoffset: 2000;
-    stroke-dasharray: 1000; 
-    animation-duration:4s;
-    animation-timing-function: ease;
-  }
-}
-
-.App-header {
-  background-color: #bd87ab;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 
 
 
