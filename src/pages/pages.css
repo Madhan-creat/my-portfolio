@@ -2,7 +2,11 @@
   margin: 0px;
   padding: 0px;
 }
-
+.clglogo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
 .GridA {
   background: #85dcb8;
   color: white;
@@ -38,11 +42,20 @@
   margin: 2rem 0rem 2rem 2rem;
   background-color: white;
 }
+.poniting {
+  display: flex;
+  flex-direction: column;
+}
 
 .aboutme {
   /* margin: 2rem 0rem 2rem 2rem;
 background-color: white; */
   display: flex;
+}
+.pointing {
+  display: flex;
+  padding-left: 10px;
+  margin-top: 30px;
 }
 
 .head {
@@ -52,6 +65,60 @@ background-color: white; */
   text-align: left;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
+}
+.course {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 1rem;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+
+  letter-spacing: 0.6px;
+  color: #868e96;
+}
+.year {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 1rem;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+
+  letter-spacing: 0.6px;
+  color: #868e96;
+}
+.location {
+  margin-top: 50px;
+}
+
+.loc1 {
+  border-left: 5px solid #55198b;
+  height: 150px;
+  margin-left: 33px;
+  /* margin-top: 50px; */
+}
+
+.college {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 1rem;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+
+  letter-spacing: 0.6px;
+  color: #868e96;
+}
+
+.btech {
+  width: 650px;
+  border: 1px solid #55198b;
+  margin-bottom: 20px;
+  margin-left: 3%;
 }
 
 .swing {
@@ -134,6 +201,7 @@ background-color: white; */
   text-align: left;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
+  margin-left: 50px;
 }
 
 .subTitle {
@@ -212,6 +280,14 @@ background-color: white; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-left: 20vh;
+}
+.edu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5vh;
+  width: 1450px;
 }
 
 .projectText {
@@ -268,9 +344,18 @@ background-color: white; */
   height: 33px;
   margin: 1rem;
 }
+.collegegird {
+  width: 100%;
+  height: 21vh;
+  padding: 1.3rem;
+  text-align: center;
+  box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 -1px 10px 0 rgb(0 0 0 / 19%);
+  margin: 0.8rem;
+  border-radius: 0%;
+}
 
 .projectDiv {
-  /* width: 473px; */
+  width: 38vh;
   height: 38vh;
   padding: 1.3rem;
   text-align: center;
@@ -430,16 +515,60 @@ background-color: white; */
   .head {
     margin-top: 6rem;
   }
+  .btech {
+    width: 350px;
+    border: 1px solid #55198b;
+    margin-bottom: 17px;
+    margin-left: 3%;
+    margin-right: 5%;
+  }
+  .college {
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: center;
+
+    letter-spacing: 0.6px;
+    color: #868e96;
+  }
+  .course {
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: 17px;
+    line-height: 0.5;
+    text-align: center;
+
+    letter-spacing: 0.6px;
+    color: #868e96;
+  }
+  .year {
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+
+    letter-spacing: 0.6px;
+    color: #868e96;
+  }
 }
-@media screen and (min-width: 693px)  and (max-width: 992px) {
-.image {
+
+@media screen and (min-width: 693px) and (max-width: 992px) {
+  .image {
     margin-top: 2.2rem;
     width: 545px;
+  }
 }
+@media screen and (min-width: 993px) and (max-width: 1100px) {
+  .image {
+    margin-top: 15.2rem;
+    width: 446px;
+  }
 }
-@media screen and (min-width: 993px)  and (max-width: 1100px) {
-    .image {
-        margin-top: 15.2rem;
-        width: 446px;
-    }
-    }

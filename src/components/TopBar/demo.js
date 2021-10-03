@@ -46,7 +46,7 @@ function ButtonAppBar(props) {
     setVisible(
       (prevScrollPos > currentScrollPos &&
         prevScrollPos - currentScrollPos > 70) ||
-        currentScrollPos < 10
+      currentScrollPos < 10
     );
 
     setPrevScrollPos(currentScrollPos);
@@ -70,7 +70,7 @@ function ButtonAppBar(props) {
           color="inherit"
           className={classes.appTitle}
         >
-          Fiza Waseem
+          Madhan Dalmia
         </Typography>
         <AppBarCollapse />
       </Toolbar>

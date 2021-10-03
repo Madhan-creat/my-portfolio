@@ -1,5 +1,5 @@
 import { Router } from "@reach/router";
-import {  Suspense, lazy } from "react";
+import { Suspense, lazy } from "react";
 import PageLoader from "./components/pageLoader/pageLoader.js";
 import React from "react";
 
@@ -7,6 +7,7 @@ function App() {
   const Landing = lazy(() => import("./pages/landingpage/landingpage"));
   const Intro = lazy(() => import("./pages/Intro"));
   const Aboutme = lazy(() => import("./pages/Aboutme"));
+  const Education = lazy(() => import("./pages/Education"));
   const Skills = lazy(() => import("./pages/Skills"));
   const Progress = lazy(() => import("./pages/Progress"));
   const Project = lazy(() => import("./pages/Project"));
@@ -27,6 +28,7 @@ function App() {
             <Landing path="/" />
             <Intro path="/Intro" />
             <Aboutme path="/aboutme" />
+            <Education path="Intro/education" />
             <Skills path="/Intro/skills" />
             <Progress path="/Intro/progress" />
             <Project path="/Intro/Project" />

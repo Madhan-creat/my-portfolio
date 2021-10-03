@@ -3,6 +3,7 @@ import fire from "../assests/fire.png";
 import { Grid, Typography } from "@material-ui/core";
 import Fade from "react-reveal/Fade";
 import ProgressLine from "../components/ProgressBar";
+import { framework, Programs } from '../components/data';
 const Progress = () => {
   return (
     <Grid xs={12} className="process">
@@ -17,16 +18,17 @@ const Progress = () => {
           <Fade bottom>
             <h3>
               <ProgressLine
-                label="React Js"
+                label="Python"
                 backgroundColor="#eedffc"
                 visualParts={[
                   {
-                    percentage: "95%",
+                    percentage: "85%",
                     color: "#af74e6",
                   },
                 ]}
               />
             </h3>
+
             <h3>
               <ProgressLine
                 label="Html/css"
@@ -46,6 +48,18 @@ const Progress = () => {
                 visualParts={[
                   {
                     percentage: "90%",
+                    color: "#af74e6",
+                  },
+                ]}
+              />
+            </h3>
+            <h3>
+              <ProgressLine
+                label="React Js"
+                backgroundColor="#eedffc"
+                visualParts={[
+                  {
+                    percentage: "95%",
                     color: "#af74e6",
                   },
                 ]}
@@ -88,18 +102,8 @@ const Progress = () => {
                 ]}
               />
             </h3>
-            <h3>
-              <ProgressLine
-                label="Node js"
-                backgroundColor="#eedffc"
-                visualParts={[
-                  {
-                    percentage: "65%",
-                    color: "#af74e6",
-                  },
-                ]}
-              />
-            </h3>
+
+
           </Fade>
         </Grid>
       </Grid>

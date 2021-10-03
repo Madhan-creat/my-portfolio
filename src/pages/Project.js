@@ -24,8 +24,8 @@ function Project() {
           </Typography>
         </Fade>
 
-        <Grid xs={12} className="mt-5" className="proj">
-          <Grid xs={12} md={3} className="projectDiv">
+        {/* <Grid xs={12} className="mt-5" className="proj"> */}
+          {/* <Grid xs={1} md={1} className="projectDiv"> */}
             <a href="https://kudzokastoreonline.netlify.app/" target="blank">
               <img
                 src={onlineGroceries}
@@ -34,56 +34,9 @@ function Project() {
               />
             </a>
             <Typography className="pText">Grocery Store</Typography>
-          </Grid>
+          {/* </Grid> */}
 
-          <Grid xs={12} md={3} className="projectDiv">
-            <a href="http://networktrans.netlify.app" target="blank">
-              <img src={testing} alt="project1" className="projectImg" />
-            </a>
-            <Typography className="pText">Simple Page</Typography>
-          </Grid>
-          <Grid xs={12} md={3} className="projectDiv">
-            <a href="http://onchatapps.netlify.app" target="blank">
-              <img src={onlinechat} alt="project1" className="projectImg" />
-            </a>
-            <Typography className="pText">Chat App</Typography>
-          </Grid>
-        </Grid>
-
-        <Grid xs={12} className="mt-5" className="proj">
-          <Grid xs={12} md={3} className="projectDiv">
-            <a href="https://content-management.netlify.app/" target="blank">
-              <img src={dashbord} alt="project1" style={{ width: "15rem" }} />
-            </a>
-            <Typography className="pText">CM Dashboard</Typography>
-          </Grid>
-
-          <Grid xs={12} md={3} className="projectDiv">
-            <a href="https://pokemon-apps.netlify.app/" target="blank">
-              <img src={pokemon} alt="project1" style={{ width: "14rem" }} />
-            </a>
-            <Typography className="pText">Pokemone App</Typography>
-          </Grid>
-          <Grid xs={12} md={3} className="projectDiv">
-            <a href="https://tailorstore.netlify.app/" target="blank">
-              <img src={tailor} alt="project1" style={{ width: "15rem" }} />
-            </a>
-            <Typography className="pText">Tailor Store</Typography>
-          </Grid>
-        </Grid>
-
-        <Grid xs={12} className="mt-5" className="proj">
-          <Grid xs={12} md={3} className="projectDiv">
-            <a href="http://staging.brandcloud.com/" target="blank">
-              <img
-                src={cloud}
-                alt="project1"
-                style={{ width: "14rem", height: "10rem" }}
-              />
-            </a>
-            <Typography className="pText">BrandCloud</Typography>
-          </Grid>
-        </Grid>
+        {/* </Grid> */}
       </Grid>
     </div>
   );

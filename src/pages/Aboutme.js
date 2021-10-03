@@ -12,8 +12,8 @@ export default function Aboutme() {
       <Grid xs={12} className="about">
         <Zoom cascade delay={200}>
           <Typography className="head">
-            Hello there, I'm Fiza{" "}
-            <Swing delay={1500} count={3}>
+            Hello there, I'm Madhan{" "}
+            <Swing delay={1500} count={100}>
               <img src={hand} alt="hand" className="swing" />
             </Swing>
           </Typography>
@@ -35,11 +35,11 @@ export default function Aboutme() {
               target="_blank"
               style={{ textDecorationLine: "none" }}
             >
-              <Typography className="hire">See my Resume</Typography>
+              {/* <Typography className="hire">See my Resume</Typography> */}
             </a>{" "}
           </Grid>
         </Grid>
-      </Grid>
+      </Grid>+
       <Grid xs={12} className="img_div">
         <img className="image" src={webdevelopment} alt="none" />
       </Grid>
